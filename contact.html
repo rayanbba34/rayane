@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>SFCV : Contact</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+
+<body>
+    <div id="entete">
+        <img src="img/logo.png" alt="logo" />
+        <h1>SFCV</h1>
+        <h3>n°1 des Caves à Vin</h3>
+    </div>
+
+    <hr>
+
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="bloc">
+        <h2>Demande de catalogue</h2>
+
+        <form name="demande" id="demande" method="POST" action="mailto:tvtsii@free.fr" enctype="text/plain">
+            <p>
+                Civilité : <br>
+                <input type="radio" name="civilite" id="civilite_m" value="1" /> Monsieur<br>
+                <input type="radio" name="civilite" id="civilite_f" value="2" /> Madame
+            </p>
+
+            <p>
+                Nom : <br>
+                <input type="text" name="nom" id="nom" value="" />
+            </p>
+
+            <p>
+                Prénom : <br>
+                <input type="text" name="prenom" id="prenom" value="" />
+            </p>
+
+            <p>
+                Adresse : <br>
+                <textarea name="adresse" id="adresse" rows="4" cols="40"></textarea>
+            </p>
+
+            <p>
+                Code postal : <br>
+                <input type="text" name="codepostal" id="codepostal" value="" />
+            </p>
+
+            <p>
+                Ville : <br>
+                <input type="text" name="ville" id="ville" value="" />
+            </p>
+
+            <p>
+                Souhaitez-vous recevoir notre newsletter ? <br>
+                <input type="checkbox" name="newslettre" id="newslettre" value="oui" /> Oui
+            </p>
+
+            <p>
+                Adresse email : <br>
+                <input type="email" name="email" id="email" value="" />
+            </p>
+
+            <p>
+                <input type="submit" name="action" value="Envoyer" />
+                <input type="reset" value="Effacer" />
+            </p>
+        </form>
+    </div>
+
+    <hr>
+
+    <div id="pied">
+        <p>&copy; SFCV - <a href="mentions.html" target="_blank">Mentions légales</a></p>
+        <p>L'abus de l'alcool est bon pour la santé, à consommer avec modération</p>
+    </div>
+</body>
+</html>

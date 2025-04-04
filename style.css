@@ -1,0 +1,34 @@
+table {
+    width: 100%; /* Occupe toute la largeur disponible */
+    border-collapse: collapse; /* Fusionne les bordures */
+    border: 1px solid #000; /* Bordure noire pour l'ensemble du tableau */
+}
+
+td {
+    border: 1px solid #000; /* Ajoute une bordure noire autour de chaque cellule */
+    padding: 10px; /* Espacement interne des cellules */
+    text-align: center; /* Centre le texte par défaut */
+}
+
+td[colspan="4"] {
+    text-align: left; /* Alignement du texte à gauche pour les cellules fusionnées */
+    font-style: italic; /* Exemple : texte en italique pour un effet distinct */
+}
+
+td[rowspan="3"] {
+    text-align: center; /* Centre le contenu de la cellule */
+    vertical-align: top; /* Alignement vertical en haut */
+}
+
+img {
+    width: 150px; /* Largeur ajustée de l'image */
+    height: auto; /* Conserve le ratio de l'image */
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Ajout d'une alternance de couleurs pour les lignes impaires */
+}
+
+tr:nth-child(even) {
+    background-color: #fff; /* Couleur blanche pour les lignes paires */
+}

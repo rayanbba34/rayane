@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>SFCV : Services</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+
+<body>
+    <div id="entete">
+        <img src="img/logo.png" alt="logo" />
+        <h1>SFCV</h1>
+        <h3>n°1 des Caves à Vin</h3>
+    </div>
+
+    <hr>
+
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="bloc">
+        <!-- Intégration de la grille tarifaire -->
+        <h2>Tarifs</h2>
+        <object data="tarifs.html" type="text/html" width="100%" height="200px">
+            Votre navigateur ne supporte pas l’affichage HTML intégré.
+        </object>
+
+        <br><br>
+
+        <!-- Intégration du catalogue PDF -->
+        <h2>Catalogue</h2>
+        <object data="catalogue.pdf" type="application/pdf" width="100%" height="500px">
+            <p>Votre navigateur ne supporte pas les PDF intégrés. 
+            <a href="catalogue.pdf" target="_blank">Télécharger le catalogue</a>.</p>
+        </object>
+
+        <br><br>
+
+        <!-- Intégration de la vidéo -->
+        <h2>Visite virtuelle</h2>
+        <video width="640" height="360" controls>
+            <source src="visite.mp4" type="video/avi">
+            Votre navigateur ne supporte pas la lecture vidéo. 
+            <a href="visite.avi">Télécharger la vidéo</a>.
+        </video>
+    </div>
+
+    <hr>
+
+    <div id="pied">
+        <p>&copy; SFCV - <a href="mentions.html" target="_blank">Mentions légales</a></p>
+        <p>L'abus de l'alcool est bon pour la santé, à consommer avec modération</p>
+    </div>
+</body>
+</html>

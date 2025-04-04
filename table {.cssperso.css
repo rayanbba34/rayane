@@ -1,0 +1,48 @@
+table {
+    width: 100%; /* Occupe toute la largeur disponible */
+    border-collapse: collapse; /* Fusionne les bordures */
+    border: 2px solid #5D001E; /* Bordure rouge bordeaux foncé */
+}
+
+td {
+    border: 1px solid #5D001E; /* Bordure rouge bordeaux */
+    padding: 10px; /* Espacement interne des cellules */
+    text-align: center; /* Centre le texte par défaut */
+    color: #fff; /* Texte blanc pour un bon contraste */
+    background-color: #800020; /* Rouge bordeaux */
+}
+
+td[colspan="4"] {
+    text-align: left; /* Alignement du texte à gauche pour les cellules fusionnées */
+    font-style: italic; /* Texte en italique pour un effet distinct */
+    font-weight: bold; /* Texte en gras */
+    background-color: #4E001A; /* Rouge bordeaux plus foncé */
+}
+
+td[rowspan="3"] {
+    text-align: center; /* Centre le contenu de la cellule */
+    vertical-align: top; /* Alignement vertical en haut */
+    background-color: #660022; /* Rouge bordeaux intermédiaire */
+}
+
+img {
+    width: 150px; /* Largeur ajustée de l'image */
+    height: auto; /* Conserve le ratio de l'image */
+    border-radius: 10px; /* Coins arrondis pour une esthétique plus douce */
+    border: 2px solid #5D001E; /* Bordure assortie au tableau */
+}
+
+tr:nth-child(odd) {
+    background-color: #70001E; /* Rouge bordeaux un peu plus clair */
+}
+
+tr:nth-child(even) {
+    background-color: #900024; /* Rouge bordeaux plus vif */
+}
+
+th {
+    background-color: #4E001A; /* Rouge bordeaux foncé pour les en-têtes */
+    color: #fff; /* Texte blanc */
+    font-size: 1.2em; /* Taille de police légèrement plus grande */
+    padding: 12px;
+}
